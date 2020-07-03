@@ -103,11 +103,15 @@
         <name>ApexComponent</name>
     </types>
     <types>
+        <members>ACCObjTest1Page</members>
+        <members>ACOBJTpage</members>
         <members>ApexPage</members>
+        <members>ApexPage5</members>
         <name>ApexPage</name>
     </types>
     <types>
         <members>AccountTrigger1</members>
+        <members>ContactTrigger1</members>
         <name>ApexTrigger</name>
     </types>
     <types>
@@ -204,6 +208,7 @@
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
         <members>rk_obj1__c.AutorabitExtId__c</members>
+        <members>zb1__c.f2__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -211,6 +216,7 @@
         <members>AC2</members>
         <members>AC67</members>
         <members>AC8</members>
+        <members>AlabelTest4</members>
         <members>DX_API</members>
         <members>b1</members>
         <members>b2</members>

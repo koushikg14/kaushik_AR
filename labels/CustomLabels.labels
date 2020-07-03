@@ -29,6 +29,13 @@
         <value>111</value>
     </labels>
     <labels>
+        <fullName>AlabelTest4</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AlabelTest4</shortDescription>
+        <value>4</value>
+    </labels>
+    <labels>
         <fullName>DX_API</fullName>
         <categories>API URL - http://103.211.39.40:8589/rabit/rabitservices?wsdl</categories>
         <language>en_US</language>
