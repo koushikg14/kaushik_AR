@@ -88,6 +88,11 @@
         <members>SAClS2</members>
         <members>SaiClass1</members>
         <members>SaiFEb29</members>
+        <members>SampathClas</members>
+        <members>SiteLoginController</members>
+        <members>SiteLoginControllerTest</members>
+        <members>SiteRegisterController</members>
+        <members>SiteRegisterControllerTest</members>
         <members>a0testclass</members>
         <members>a12testclass</members>
         <members>a13testclass</members>
