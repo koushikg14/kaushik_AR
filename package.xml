@@ -99,6 +99,9 @@
         <members>SiteLoginControllerTest</members>
         <members>SiteRegisterController</members>
         <members>SiteRegisterControllerTest</members>
+        <members>VCClass10008</members>
+        <members>VCClass10009</members>
+        <members>VCClass1001</members>
         <members>a0testclass</members>
         <members>a12testclass</members>
         <members>a13testclass</members>
