@@ -466,6 +466,10 @@
         <name>ManagedContentType</name>
     </types>
     <types>
+        <members>Contact.contacttest</members>
+        <name>MatchingRule</name>
+    </types>
+    <types>
         <members>ARProfile1</members>
         <members>Admin</members>
         <members>Analytics Cloud Integration User</members>
