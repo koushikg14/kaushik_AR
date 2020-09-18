@@ -52,8 +52,4 @@
         <name>LightningInstrumentation</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
-    <appMenuItems>
-        <name>LightningSchedulerSetupAssistant</name>
-        <type>StandardAppMenuItem</type>
-    </appMenuItems>
 </AppMenu>
