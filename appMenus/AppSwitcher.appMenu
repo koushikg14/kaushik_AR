@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AppMenu xmlns="http://soap.sforce.com/2006/04/metadata">
     <appMenuItems>
-    // modiedjioasjf
         <name>standard__Platform</name>
-        <type>CustoasdasdasdmApplication</type>
+        <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
         <name>standard__Sales</name>
@@ -12,15 +11,6 @@
     <appMenuItems>
         <name>standard__Service</name>
         <type>CustomApplication</type>
-            // modiedjioasjf
-
-    // modiedjioasjf
-
-//v
-//v
-
-    // modiedjioasjf
-
     </appMenuItems>
     <appMenuItems>
         <name>standard__Marketing</name>
@@ -76,6 +66,14 @@
     </appMenuItems>
     <appMenuItems>
         <name>standard__SalesforceCMS</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__AllTabSet</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__Commerce</name>
         <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>
