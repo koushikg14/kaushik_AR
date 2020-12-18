@@ -63,6 +63,15 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>NewField1__c</fullName>
+        <externalId>false</externalId>
+        <label>NewField1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>NumberofLocations__c</fullName>
         <externalId>false</externalId>
         <label>Number of Locations</label>
