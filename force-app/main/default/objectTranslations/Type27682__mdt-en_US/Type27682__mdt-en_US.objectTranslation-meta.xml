@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Type27682</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TypeTests</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- error on custom metadata --></errorMessage>
+        <name>TestRule27682v2</name>
+    </validationRules>
+</CustomObjectTranslation>
