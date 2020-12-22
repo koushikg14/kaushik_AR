@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <compactLayouts>
+        <fullName>New_Oppty_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Probability</fields>
+        <fields>CloseDate</fields>
+        <fields>StageName</fields>
+        <fields>Amount</fields>
+        <fields>OwnerId</fields>
+        <label>New Oppty Compact Layout</label>
+    </compactLayouts>
     <fields>
         <fullName>CurrentGenerators__c</fullName>
         <externalId>false</externalId>
@@ -117,6 +127,28 @@
             <value>LAST_N_MONTHS:3</value>
         </filters>
         <label>Opportunity Pipeline</label>
+    </listViews>
+    <listViews>
+        <fullName>High_Probability_Opportunities</fullName>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Proposal/Price Quote,Negotiation/Review</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.PROBABILITY</field>
+            <operation>greaterOrEqual</operation>
+            <value>50.0</value>
+        </filters>
+        <label>High Probability Opportunities</label>
     </listViews>
     <listViews>
         <fullName>MyOpportunities</fullName>

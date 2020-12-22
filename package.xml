@@ -63,6 +63,7 @@
         <members>CommitLabelClass</members>
         <members>CommunitiesLandingController</members>
         <members>CommunitiesLandingControllerTest</members>
+        <members>Conflict</members>
         <members>D5</members>
         <members>D6</members>
         <members>D7</members>
@@ -81,6 +82,8 @@
         <members>DemoClass3</members>
         <members>DemoClass4</members>
         <members>DepCls1</members>
+        <members>ForgotPasswordController</members>
+        <members>ForgotPasswordControllerTest</members>
         <members>HarishClass2</members>
         <members>Jan5</members>
         <members>Kl1</members>
@@ -88,6 +91,7 @@
         <members>MarCls1</members>
         <members>MetadataCheckService</members>
         <members>MyProfilePageController</members>
+        <members>MyProfilePageControllerTest</members>
         <members>NCLS100</members>
         <members>NCLs1</members>
         <members>NS25Class1</members>
@@ -97,11 +101,17 @@
         <members>SaiClass1</members>
         <members>SaiFEb29</members>
         <members>SampathClas</members>
+        <members>Sample28160</members>
         <members>Sep8Cls2</members>
         <members>SiteLoginController</members>
         <members>SiteLoginControllerTest</members>
         <members>SiteRegisterController</members>
         <members>SiteRegisterControllerTest</members>
+        <members>TaskUtil</members>
+        <members>TaskUtilTest</members>
+        <members>TemperatureConverter</members>
+        <members>TemperatureConverterTest</members>
+        <members>TestApex</members>
         <members>VCClass10008</members>
         <members>VCClass10009</members>
         <members>VCClass1001</members>
@@ -115,17 +125,39 @@
         <members>a30testclass</members>
         <members>a32testclass</members>
         <members>mar19Cl1</members>
+        <members>myHandler</members>
         <name>ApexClass</name>
     </types>
     <types>
+        <members>SiteFooter</members>
         <members>SiteHeader</members>
+        <members>SiteLogin</members>
+        <members>SitePoweredBy</members>
         <name>ApexComponent</name>
     </types>
     <types>
         <members>ACCObjTest1Page</members>
         <members>ACOBJTpage</members>
+        <members>AnswersHome</members>
         <members>ApexPage</members>
         <members>ApexPage5</members>
+        <members>BandwidthExceeded</members>
+        <members>ChangePassword</members>
+        <members>Exception</members>
+        <members>FileNotFound</members>
+        <members>ForgotPassword</members>
+        <members>ForgotPasswordConfirm</members>
+        <members>IdeasHome</members>
+        <members>InMaintenance</members>
+        <members>MyProfilePage</members>
+        <members>SiteLogin</members>
+        <members>SiteRegister</members>
+        <members>SiteRegisterConfirm</members>
+        <members>SiteTemplate</members>
+        <members>StdExceptionTemplate</members>
+        <members>Unauthorized</members>
+        <members>UnderConstruction</members>
+        <members>testpageweblink</members>
         <name>ApexPage</name>
     </types>
     <types>
@@ -166,6 +198,11 @@
         <name>Community</name>
     </types>
     <types>
+        <members>Account.Mobile_Account_Layout</members>
+        <members>Opportunity.New_Oppty_Compact_Layout</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
         <members>standard__AllTabSet</members>
         <members>standard__AppLauncher</members>
         <members>standard__Chatter</members>
@@ -181,6 +218,7 @@
         <members>standard__LightningService</members>
         <members>standard__Marketing</members>
         <members>standard__Platform</members>
+        <members>standard__QueueManagement</members>
         <members>standard__Sales</members>
         <members>standard__SalesforceCMS</members>
         <members>standard__Service</members>
@@ -220,16 +258,31 @@
         <members>Case.SLAViolation__c</members>
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
+        <members>Contact.Loan_Amount__c</members>
+        <members>Energy_Audit__c.Account__c</members>
+        <members>Energy_Audit__c.Annual_Energy_Usage_kWh__c</members>
+        <members>Energy_Audit__c.Audit_Notes__c</members>
+        <members>Energy_Audit__c.Average_Annual_Electric_Cost__c</members>
+        <members>Energy_Audit__c.Type_of_Installation__c</members>
+        <members>Favorite__c.Contact__c</members>
+        <members>Favorite__c.Favorite_Name__c</members>
+        <members>Favorite__c.Property__c</members>
         <members>Lead.CurrentGenerators__c</members>
         <members>Lead.NumberofLocations__c</members>
         <members>Lead.Primary__c</members>
         <members>Lead.ProductInterest__c</members>
         <members>Lead.SICCode__c</members>
+        <members>Offer__c.Contact__c</members>
+        <members>Offer__c.Offer_Amount__c</members>
+        <members>Offer__c.Property__c</members>
+        <members>Offer__c.Target_Close_Date__c</members>
         <members>Opportunity.CurrentGenerators__c</members>
         <members>Opportunity.DeliveryInstallationStatus__c</members>
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
+        <members>Property__c.Price__c</members>
+        <members>Property__c.Street_Address__c</members>
         <members>rk_obj1__c.AutorabitExtId__c</members>
         <members>zb1__c.f2__c</members>
         <name>CustomField</name>
@@ -252,10 +305,15 @@
         <members>ACR5__c</members>
         <members>A__c</members>
         <members>C__c</members>
+        <members>Energy_Audit__c</members>
+        <members>Favorite__c</members>
+        <members>Offer__c</members>
+        <members>Property__c</members>
         <members>SaiObj1__c</members>
         <members>Test54__c</members>
         <members>rk_obj1__c</members>
         <members>rkobj2__c</members>
+        <members>testPMTk__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -263,11 +321,21 @@
         <members>A__c-en_US</members>
         <members>C__c-en_US</members>
         <members>Dbj1__c-en_US</members>
+        <members>Energy_Audit__c-en_US</members>
+        <members>Favorite__c-en_US</members>
+        <members>Offer__c-en_US</members>
+        <members>Property__c-en_US</members>
         <members>SaiObj1__c-en_US</members>
         <members>Test54__c-en_US</members>
         <members>rk_obj1__c-en_US</members>
         <members>rkobj2__c-en_US</members>
+        <members>testPMTk__c-en_US</members>
         <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>Energy_Audit__c</members>
+        <members>Property__c</members>
+        <name>CustomTab</name>
     </types>
     <types>
         <members>Account.Standard_Account_Duplicate_Rule</members>
@@ -290,6 +358,7 @@
         <members>unfiled$public/SupportSelfServiceNewLoginandPassword</members>
         <members>unfiled$public/SupportSelfServiceResetPassword</members>
         <members>unfiled$public/asdasd</members>
+        <members>unfiled$public/asdasd-meta.xml</members>
         <name>EmailTemplate</name>
     </types>
     <types>
@@ -350,7 +419,9 @@
         <members>DigitalWallet-Digital Wallet Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>
+        <members>Energy_Audit__c-Energy Audit Layout</members>
         <members>Event-Event Layout</members>
+        <members>Favorite__c-Favorite Layout</members>
         <members>Global-Global Layout</members>
         <members>Idea-Idea Layout</members>
         <members>Individual-Individual Layout</members>
@@ -361,6 +432,7 @@
         <members>Lead-Lead %28Support%29 Layout</members>
         <members>Lead-Lead Layout</members>
         <members>Macro-Macro Layout</members>
+        <members>Offer__c-Offer Layout</members>
         <members>OperatingHours-Operating Hours Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
         <members>Opportunity-Opportunity %28Sales%29 Layout</members>
@@ -379,6 +451,7 @@
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
         <members>ProductConsumptionSchedule-Product Consumption Schedule Layout</members>
+        <members>Property__c-Property Layout</members>
         <members>QuickText-Quick Text Layout</members>
         <members>Refund-Refund Layout</members>
         <members>RefundLinePayment-Refund Line Payment Layout</members>
@@ -407,6 +480,7 @@
         <members>WorkTypeGroupMember-Work Type Group Member Layout</members>
         <members>rk_obj1__c-rk-obj1 Layout</members>
         <members>rkobj2__c-rkobj2 Layout</members>
+        <members>testPMTk__c-testPMTk Layout</members>
         <name>Layout</name>
     </types>
     <types>
@@ -416,6 +490,7 @@
     </types>
     <types>
         <members>Account.AllAccounts</members>
+        <members>Account.Channel_Customers</members>
         <members>Account.MyAccounts</members>
         <members>Account.NewLastWeek</members>
         <members>Account.NewThisWeek</members>
@@ -433,6 +508,7 @@
         <members>Case.MyOpenCases</members>
         <members>Contact.AllContacts</members>
         <members>Contact.BirthdaysThisMonth</members>
+        <members>Contact.BulkMessageContacts</members>
         <members>Contact.MyContacts</members>
         <members>Contact.NewLastWeek</members>
         <members>Contact.NewThisWeek</members>
@@ -443,15 +519,18 @@
         <members>Contract.MyActivatedContracts</members>
         <members>Contract.MyDraftContracts</members>
         <members>Contract.MyInApprovalContracts</members>
+        <members>Energy_Audit__c.All</members>
         <members>Lead.AllOpenLeads</members>
         <members>Lead.MyUnreadLeads</members>
         <members>Lead.TodaysLeads</members>
         <members>Lead.ViewCustom1</members>
         <members>Lead.ViewCustom2</members>
+        <members>MessagingEndUser.BulkMessageMessagingEndUsers</members>
         <members>Opportunity.AllOpportunities</members>
         <members>Opportunity.ClosingNextMonth</members>
         <members>Opportunity.ClosingThisMonth</members>
         <members>Opportunity.Default_Opportunity_Pipeline</members>
+        <members>Opportunity.High_Probability_Opportunities</members>
         <members>Opportunity.MyOpportunities</members>
         <members>Opportunity.NewLastWeek</members>
         <members>Opportunity.NewThisWeek</members>
@@ -461,6 +540,7 @@
         <members>Order.AllDraftOrders</members>
         <members>Order.AllOrders</members>
         <members>Product2.AllProducts</members>
+        <members>Property__c.All</members>
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
         <members>User.ActiveUsers</members>
@@ -517,6 +597,7 @@
         <members>Standard</members>
         <members>StandardAul</members>
         <members>Work%2Ecom Only User</members>
+        <members>testPMT</members>
         <name>Profile</name>
     </types>
     <types>
@@ -535,6 +616,7 @@
         <members>NewNote</members>
         <members>NewOpportunity</members>
         <members>NewTask</members>
+        <members>New_Offer</members>
         <members>SendEmail</members>
         <members>Task.Defer</members>
         <members>Task.Defer_0</members>
@@ -583,6 +665,7 @@
         <members>Account.Billing</members>
         <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>Case.UpsellCrosssellOpportunity</members>
+        <members>Contact.Google_Info</members>
         <members>Opportunity.DeliveryStatus</members>
         <name>WebLink</name>
     </types>

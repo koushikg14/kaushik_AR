@@ -12,9 +12,12 @@
     <tabs>standard-Forecasting3</tabs>
     <tabs>standard-Contract</tabs>
     <tabs>standard-Order</tabs>
+    <tabs>standard-Invoice</tabs>
     <tabs>standard-Case</tabs>
     <tabs>standard-Solution</tabs>
     <tabs>standard-Product2</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>Property__c</tabs>
+    <tabs>Energy_Audit__c</tabs>
 </CustomApplication>
