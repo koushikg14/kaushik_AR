@@ -163,21 +163,6 @@
     <platformActionList>
         <actionListContext>Record</actionListContext>
         <platformActionListItems>
-            <actionName>ViewCampaignHierarchy</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>19</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>Share</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>20</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>SendEmail</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>21</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
             <actionName>FeedItem.TextPost</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>0</sortOrder>
@@ -272,6 +257,21 @@
             <actionType>StandardButton</actionType>
             <sortOrder>18</sortOrder>
         </platformActionListItems>
+        <platformActionListItems>
+            <actionName>ViewCampaignHierarchy</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>19</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Share</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>20</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>SendEmail</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>21</sortOrder>
+        </platformActionListItems>
     </platformActionList>
     <quickActionList>
         <quickActionListItems>
@@ -352,9 +352,10 @@
     <relatedLists>
         <fields>MEMBER_TYPE</fields>
         <fields>STATUS</fields>
+        <fields>FULL_NAME</fields>
+        <fields>TITLE</fields>
         <fields>FIRST_NAME</fields>
         <fields>LAST_NAME</fields>
-        <fields>TITLE</fields>
         <fields>COMPANY</fields>
         <relatedList>RelatedCampaignMemberList</relatedList>
     </relatedLists>
